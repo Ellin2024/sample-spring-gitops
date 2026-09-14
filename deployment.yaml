@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: cicd-project
-          image: cicd-project:1.0
+          image: ellinhugo/cicd-project:1.0
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
@@ -31,4 +31,3 @@ spec:
       port: 8080
       targetPort: 8080
   type: ClusterIP
-  
