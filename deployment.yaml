@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: cicd-project
-          image: ellinhugo/cicd-project:1.0
+          image: ellinhugo/cicd-project:d6d35975f7944d87e6849f864175b30cbbeae92c
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
